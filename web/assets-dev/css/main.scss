@@ -1,0 +1,37 @@
+/* + Mixin imports */
+@import "mixins";
+/* = Mixin imports */
+
+/* + Function imports */
+/* = Function imports */
+
+/* + Variablen (Farben, Fonts, etc) */
+$standard-color: #404040;
+$primary-color: #00617d;
+$primary-color--active: #00617d;
+$secondary-color: #6dc1dc;
+$secondary-color--active: #6dc1dc;
+
+$error-color: #a15456;
+
+$font-size-normal: 14px;
+$standard-spacing: 14px;
+$large-spacing: $standard-spacing * 2;
+
+/* = Variablen (Farben, Fonts, etc) */
+
+/* + Reset */
+@import "modules/normalize"; /* customized normalize.css v3.0.0 */
+@import "modules/reset"; /* reset/normalize extensions */
+/* = Reset */
+
+/* + General styles (Typo, Formulare, Tabellen, etc) */
+/* = General styles (Typo, Formulare, Tabellen, etc) */
+
+/* + Styles höherer Ordnung (OOCSS – Nicht-modulspezifische oder modulübergreifende Styles) */
+.content { max-width:70%; padding:5%; }
+/* = Styles höherer Ordnung (OOCSS – Nicht-modulspezifische oder modulübergreifende Styles) */
+
+/* + Modul Styles */
+@import "modules/responsive-embed"; /* Responsive Container for embed code like iframes */
+/* = Modul Styles */

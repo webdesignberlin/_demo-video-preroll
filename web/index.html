@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="content">
+        <h1>Iframe-Video Preroll</h1>
+        <time datetime="2014-08-15T07:54:39Z+02:00">am 15. August 2014 um 07:54 Uhr</time>
+    </header>
+    <main>
+        <article class="content">
+            <figure data-video="preroll">
+                <div class="embed-container">
+               <video id="video" preload="metadata" poster="http://placehold.it/560x315" onclick="playPreroll()">
+                   <source src="assets/video/small.mp4" type="video/mp4">
+                   <source src="assets/video/small.webm" type="video/webm">
+                   <source src="assets/video/small.ogg" type="video/ogg">
+                   <!-- Flash fallback 
+                   <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=video/tears-of-steel-battle-clip-medium.mp4" width="1024" height="576">
+                      <param name="movie" value="flash-player.swf?videoUrl=video/tears-of-steel-battle-clip-medium.mp4" />
+                      <param name="allowfullscreen" value="true" />
+                      <param name="wmode" value="transparent" />
+                      <param name="flashvars" value="controlbar=over&amp;image=img/poster.jpg&amp;file=flash-player.swf?videoUrl=video/tears-of-steel-battle-clip-medium.mp4" />
+                      <img alt="Tears of Steel poster image" src="img/poster.jpg" width="1024" height="428" title="No video playback possible, please download the video from the link below" />
+                   </object>
+                   -->
+                   <!-- Offer download 
+                   <a href="video/tears-of-steel-battle-clip-medium.mp4">Download MP4</a>
+                   -->
+                </video>
+                </div>
+                <figcaption>responsive video preroll test <a href="#" class="skip-preroll"><b>Skip Preroll</b></a></figcaption>
+            </figure>              
+
+            <div class="embed-container" data-video="video">
+                <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript"> window.jQuery || document.write('<script type="text/javascript" src="assets/js/vendor/jquery/jquery.min.js"><\/script>');</script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>
